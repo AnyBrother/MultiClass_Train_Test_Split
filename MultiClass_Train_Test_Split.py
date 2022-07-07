@@ -67,7 +67,7 @@ def train_test_split_multi_class_ykp(data_x, data_y, test_size=0.2, random_seed=
 
 if __name__ == '__main__':
     import os
-    path = os.getcwd() + "\\"
+    path = os.getcwd() + "\\data\\"
     # 设置数据文件名称
     data_file = "Wine.3C.xlsx"
     sheet_name = "Wine.3C"
